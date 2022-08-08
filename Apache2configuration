@@ -1,0 +1,27 @@
+Hi Everyone,
+in this i will tell you how to install HTTP package in ubuntu 
+
+Unlike other linux versions ubuntu uses apache2 package to enabel http service
+
+in the terminal sudo su (Lets you login as root)
+
+Sudo apt install apache2 (prompt for password and type Y)
+
+to check the version type: sudo apache2 -version
+
+sudo ufw app list (Ubuntu Firewal Spec)
+
+Available applications:
+  Apache
+  Apache Full
+  Apache Secure
+  OpenSSH
+  
+  sudo ufw allow 'apache Full'
+  sudo ufw allow 'Apache'
+  
+  sudo ufw status
+  
+  Status Active
+  
+  Done..! Thank you
